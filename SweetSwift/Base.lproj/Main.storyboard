@@ -20,15 +20,14 @@
                                 <rect key="frame" x="-119" y="113" width="630" height="627"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gn9-OR-Mud">
-                                <rect key="frame" x="183" y="298" width="103" height="114"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IMb-mZ-Q4U">
+                                <rect key="frame" x="194" y="284" width="69" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="zepYeseul"/>
+                                <buttonConfiguration key="configuration" style="plain" image="zepYeseul" imagePlacement="top" title="김예슬"/>
                                 <connections>
-                                    <action selector="goYeseul:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oqa-qq-yhE"/>
-                                    <action selector="goYeseulButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QB7-xO-zSH"/>
-                                    <segue destination="HJU-3B-iN2" kind="show" id="l4a-ze-vR4"/>
+                                    <action selector="goYeseulButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cBl-HV-hyL"/>
+                                    <segue destination="HJU-3B-iN2" kind="show" id="w6o-NT-WNC"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -44,10 +43,10 @@
             </objects>
             <point key="canvasLocation" x="1040.4580152671756" y="-27.464788732394368"/>
         </scene>
-        <!--View Controller-->
+        <!--Yeseul View Controller-->
         <scene sceneID="012-c3-d6M">
             <objects>
-                <viewController id="HJU-3B-iN2" sceneMemberID="viewController">
+                <viewController id="HJU-3B-iN2" customClass="YeseulViewController" customModule="SweetSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3QO-g4-7lv">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -81,7 +80,7 @@
     </scenes>
     <resources>
         <image name="vendingMachine" width="415" height="426.66665649414062"/>
-        <image name="zepYeseul" width="110" height="142"/>
+        <image name="zepYeseul" width="55" height="71"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
