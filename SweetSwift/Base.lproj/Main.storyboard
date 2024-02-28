@@ -20,8 +20,26 @@
                                 <rect key="frame" x="-119" y="113" width="630" height="627"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ER1-2w-9WF">
+                                <rect key="frame" x="101" y="277" width="75" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="zepMirim" imagePlacement="top" title="박미림"/>
+                                <connections>
+                                    <action selector="goMirimButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vba-KY-Tqh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NM5-yx-q3T">
+                                <rect key="frame" x="152" y="397" width="69" height="97"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="zepKwangmin" imagePlacement="top" title="김광민"/>
+                                <connections>
+                                    <action selector="goKwangminButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ddg-3L-EL2"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IMb-mZ-Q4U">
-                                <rect key="frame" x="194" y="284" width="69" height="82"/>
+                                <rect key="frame" x="194" y="286" width="69" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="zepYeseul" imagePlacement="top" title="김예슬"/>
@@ -80,6 +98,8 @@
     </scenes>
     <resources>
         <image name="vendingMachine" width="415" height="426.66665649414062"/>
+        <image name="zepKwangmin" width="43" height="62"/>
+        <image name="zepMirim" width="51" height="65"/>
         <image name="zepYeseul" width="55" height="71"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

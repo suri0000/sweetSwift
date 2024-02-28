@@ -20,6 +20,10 @@ class ViewController: UIViewController {
 
   @IBAction func goYeseulButton(_ sender: UIButton) {
   }
+  @IBAction func goMirimButton(_ sender: UIButton) {
+  }
+  @IBAction func goKwangminButton(_ sender: UIButton) {
+  }
   
 }
 
