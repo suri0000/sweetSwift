@@ -18,6 +18,12 @@ class ViewController: UIViewController {
     // Do any additional setup after loading the view.
   }
 
-
+  @IBAction func goYeseulButton(_ sender: UIButton) {
+  }
+  @IBAction func goMirimButton(_ sender: UIButton) {
+  }
+  @IBAction func goKwangminButton(_ sender: UIButton) {
+  }
+  
 }
 

@@ -5,11 +5,11 @@
       "scale" : "1x"
     },
     {
+      "filename" : "zepMirim.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "vendingMachine.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
