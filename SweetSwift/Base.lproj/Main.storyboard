@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Mwf-eH-4O3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Mwf-eH-4O3">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -17,11 +17,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vendingMachine" translatesAutoresizingMaskIntoConstraints="NO" id="tZ8-Xq-RE8">
-                                <rect key="frame" x="-119" y="113" width="630" height="627"/>
+                                <rect key="frame" x="-133" y="113" width="630" height="627"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ER1-2w-9WF">
-                                <rect key="frame" x="101" y="277" width="75" height="100"/>
+                                <rect key="frame" x="78" y="277" width="75" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="zepMirim" imagePlacement="top" title="박미림"/>
@@ -31,7 +31,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NM5-yx-q3T">
-                                <rect key="frame" x="152" y="397" width="69" height="97"/>
+                                <rect key="frame" x="139" y="396" width="69" height="97"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="zepKwangmin" imagePlacement="top" title="김광민"/>
@@ -41,7 +41,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IMb-mZ-Q4U">
-                                <rect key="frame" x="194" y="286" width="69" height="82"/>
+                                <rect key="frame" x="184" y="286" width="69" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="zepYeseul" imagePlacement="top" title="김예슬"/>
@@ -50,6 +50,13 @@
                                     <segue destination="HJU-3B-iN2" kind="show" id="w6o-NT-WNC"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Sweet Swift" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qUM-sE-opF">
+                                <rect key="frame" x="99" y="179" width="195" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="0.74549878424040394" green="0.51336156609015882" blue="0.19403453908549179" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -117,7 +124,7 @@
                             </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Dcu-hd-SPv"/>
-                        <color key="backgroundColor" red="0.78169993416540884" green="0.89065707506792413" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.78039217000000005" green="0.89019608500000003" blue="0.98823529480000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="gif-7y-kUu"/>
                     <connections>
@@ -136,14 +143,56 @@
                     <view key="view" contentMode="scaleToFill" id="Dar-Uv-VR0">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mirimsMemoji" translatesAutoresizingMaskIntoConstraints="NO" id="Q6r-k6-yu0">
+                                <rect key="frame" x="0.0" y="103" width="393" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="박미림" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Z7P-5y-Ihk">
+                                <rect key="frame" x="159" y="411" width="74" height="44.666666666666742"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.78169993419999995" green="0.89065707510000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Like: 동물, 판타지와 액션 장르" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gdO-7V-pYz">
+                                <rect key="frame" x="52" y="565" width="288" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Hobby: 여행, 영화" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sb5-Oo-zUD">
+                                <rect key="frame" x="52" y="621" width="288" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Dislike: 알코올" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6YT-Hr-U52">
+                                <rect key="frame" x="52" y="678" width="288" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="MBTI: ENTP" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Yvy-lo-2gg">
+                                <rect key="frame" x="52" y="517" width="288" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="zuj-Bb-SEE"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.78039217000000005" green="0.89019608500000003" blue="0.98823529480000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="YmP-K7-Xqq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QVC-pH-v2g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2915" y="-378"/>
+            <point key="canvasLocation" x="2913.740458015267" y="-378.16901408450707"/>
         </scene>
         <!--Kwangmin View Controller-->
         <scene sceneID="oaR-ga-oPu">
@@ -182,6 +231,7 @@
     </scenes>
     <resources>
         <image name="memoji" width="160" height="160"/>
+        <image name="mirimsMemoji" width="140" height="140"/>
         <image name="vendingMachine" width="415" height="426.66665649414062"/>
         <image name="zepKwangmin" width="43" height="62"/>
         <image name="zepMirim" width="51" height="65"/>
