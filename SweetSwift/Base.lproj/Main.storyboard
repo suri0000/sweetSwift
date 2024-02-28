@@ -27,6 +27,7 @@
                                 <buttonConfiguration key="configuration" style="plain" image="zepMirim" imagePlacement="top" title="박미림"/>
                                 <connections>
                                     <action selector="goMirimButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vba-KY-Tqh"/>
+                                    <segue destination="Naw-c6-PmF" kind="show" id="2El-3h-h3e"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NM5-yx-q3T">
@@ -36,6 +37,7 @@
                                 <buttonConfiguration key="configuration" style="plain" image="zepKwangmin" imagePlacement="top" title="김광민"/>
                                 <connections>
                                     <action selector="goKwangminButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ddg-3L-EL2"/>
+                                    <segue destination="d2g-YL-KdY" kind="show" id="Ph0-Pi-Zy0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IMb-mZ-Q4U">
@@ -75,7 +77,39 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c3v-X9-vEU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1992" y="-27"/>
+            <point key="canvasLocation" x="1821" y="670"/>
+        </scene>
+        <!--Mirim View Controller-->
+        <scene sceneID="crH-mD-0GU">
+            <objects>
+                <viewController id="Naw-c6-PmF" customClass="MirimViewController" customModule="SweetSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dar-Uv-VR0">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="zuj-Bb-SEE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="YmP-K7-Xqq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QVC-pH-v2g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2915" y="-378"/>
+        </scene>
+        <!--Kwangmin View Controller-->
+        <scene sceneID="oaR-ga-oPu">
+            <objects>
+                <viewController id="d2g-YL-KdY" customClass="KwangminViewController" customModule="SweetSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Aol-iD-4i7">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="9QH-js-K1K"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="r7R-Y1-3hi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ta3-kp-ncO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2914" y="363"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Hcs-Gx-BC9">
