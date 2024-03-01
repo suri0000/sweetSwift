@@ -1,29 +1,30 @@
-//
-//  KwangminViewController.swift
-//  SweetSwift
-//
-//  Created by 예슬 on 2/28/24.
-//
-
 import UIKit
 
 class KwangminViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+   @IBOutlet weak var lblInfoShow1: UILabel!
+   @IBOutlet weak var lblInfoShow2: UILabel!
+   @IBOutlet weak var imageView: UIImageView!
 
-        // Do any additional setup after loading the view.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+   var info = ["name", "age", "mbti", "tmi", "blog"]
+   var kkm = ["김광민", "26", "ENTJ", "백문이 불여일타 (100번 보는 것보다 1번 타이핑하는 것이 낫다!", "blog.naver.com/kex8977"]
+   var count = 0
+   
+   override func viewDidLoad() {
+      super.viewDidLoad()
+      
+      let img = UIImage(named: "kkm.jpeg")
+      imageView.image = img
+      //이미지 뷰에 그림파일 할당해주기
+   }
+   
+   @IBAction func btnChange(_ sender: UIButton) {
+      if count == 5 {
+         count = 0
+      }
+      
+      lblInfoShow1.text = info[count]
+      lblInfoShow2.text = kkm[count]
+      count = count + 1
+   }
 }
